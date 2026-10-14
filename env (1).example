@@ -1,0 +1,10 @@
+GEMINI_API_KEY=replace_with_your_google_ai_studio_key
+GEMINI_MODEL=gemini-3.5-flash-lite
+PORT=3001
+# Generate with: node -e "console.log(require('node:crypto').randomBytes(48).toString('base64url'))"
+AUTH_SECRET=replace_with_a_random_secret_at_least_32_characters
+# Use a persistent volume for this path in production.
+DATABASE_PATH=./data/agentgrid.sqlite
+DAILY_AI_REQUEST_LIMIT=50
+# Set true only when the app is behind one trusted reverse proxy.
+TRUST_PROXY=false
